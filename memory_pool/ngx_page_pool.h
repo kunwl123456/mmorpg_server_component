@@ -74,7 +74,7 @@ void mp_free(struct mp_pool_s *pool, void *p);
 //size是节点的大小
 struct mp_pool_s *mp_create_pool(size_t size) {
 
-	struct mp_pool_s *p;
+	struct mp_pool_s *p= nullptr;
 	//分配4k以上内存用posix_memalign()这个函数分配
 	//第一参数：返回的指针
 	//第二参数：表示分配空间是以多大的空间对齐，这里宏定义为4k
