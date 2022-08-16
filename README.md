@@ -6,8 +6,7 @@ mmorpg游戏服务器组件
 
 2)  目录:timer   定时器组件
 
-
-
+3)  目录:mysql pool  mysql连接池实现
 
 
 
