@@ -15,7 +15,7 @@ mmorpg游戏服务器组件
 
 6)  目录:ringbuffer  
 
-
+7)  目录:redis   先上传多线程版本，后续会上传libevent封装redis的接口，在后面会加上协程
 
 
 
