@@ -7,8 +7,13 @@ mmorpg游戏服务器组件
 2)  目录:timer   定时器组件
 
 3)  目录:mysql pool  mysql连接池实现
+    (后续会上传根据boost的协程汇编切换实现异步mysql请求)
 
+4)  目录:AOI    同步(后续会上传十字链表的实现和优化)
 
+5)  目录:tbus    后续会上传共享内存创建和使用的相关接口
+
+6)  目录:ringbuffer  
 
 
 
