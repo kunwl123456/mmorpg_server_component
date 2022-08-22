@@ -37,10 +37,11 @@ void *mp_alloc(struct mp_pool_s *pool, size_t size);
 void mp_free(struct mp_pool_s *pool, void *p);  
   
 
-3）模板做内存池  
+3）模板做内存池  (模板链表)
+涉及到的文件：assertx.h \ TFreeList.h
 
 
-
+3）模板做内存池  (模板对象，用红黑树存储)
 
 
 
